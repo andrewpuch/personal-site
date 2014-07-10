@@ -1,0 +1,31 @@
+html {margin:-15px 60px 60px 60px;}
+body {margin:0 auto;max-width:620px;color:#333745;line-height:24px;}
+a {text-decoration:none;font-weight:bold;}
+.one a {color:#427FED;}
+.one .right {float:right;}
+.two a {color:#E46f61;}
+.three a {color:#449933;}
+.four a {color:#BB9922;}
+a:hover {text-decoration:underline;}
+h1 {font-family: 'Fjalla One', sans-serif;font-size:32px;font-weight:300;}
+h3 {font-size:19px;font-weight:300;}
+h3, p, a {font-family: 'Average Sans', sans-serif;}
+li {display:inline;}
+ul {padding:0;}
+.border-blue {border-bottom:2px solid #76A7FA;}
+.border-red {border-bottom:2px solid #E46f61;}
+.border-orange {border-bottom:2px solid #BB9922;}
+.border-green {border-bottom:2px solid #449933;}
+.wrapper {margin-top:60px;padding-bottom:0px;}
+.wrapper.four p {color:#F9B256;}
+.wrapper.four li {padding:4px;}
+.wrapper.four li.first {padding-left:0px;}
+
+@media (max-width:600px) {
+    html {margin:-15px 20px 60px 20px;}
+    h3 {font-size:16px;}
+    h1 {font-size:26px;}
+    .one .right {display:none;}
+    .wrapper {margin-top:45px;}
+    .wrapper.four li {padding:3px;}
+}
