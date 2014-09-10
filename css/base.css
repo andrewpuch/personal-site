@@ -6,6 +6,7 @@ a {text-decoration:none;font-weight:bold;}
 .two a {color:#E46f61;}
 .three a {color:#449933;}
 .four a {color:#BB9922;}
+.five a {color:#6847EE;}
 a:hover {text-decoration:underline;}
 h1 {font-family: 'Fjalla One', sans-serif;font-size:32px;font-weight:300;}
 h3 {font-size:19px;font-weight:300;}
@@ -16,6 +17,7 @@ ul {padding:0;}
 .border-red {border-bottom:2px solid #E46f61;}
 .border-orange {border-bottom:2px solid #BB9922;}
 .border-green {border-bottom:2px solid #449933;}
+.border-purple {border-bottom:2px solid #6847EE;}
 .wrapper {margin-top:60px;padding-bottom:0px;}
 .wrapper.four p {color:#F9B256;}
 .wrapper.four li {padding:4px;}
